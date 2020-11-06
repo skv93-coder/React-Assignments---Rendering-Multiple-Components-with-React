@@ -1,11 +1,13 @@
 import React, { Component, useState } from "react";
 import "../styles/App.css";
-import Project from "./Project";
+
 const App = () => {
   return (
     <>
-      <Project projectDescription={"App"} projectName={"sApp"} />
-      <Project projectDescription={"Apps"} projectName={"dApp"} />
+      <p data-ns-test="project-name">App</p>
+      <p data-ns-test="project-name">dApp</p>
+      <p data-ns-test="project-description">2App</p>
+      <p data-ns-test="project-description">d2App</p>
     </>
   );
 };
